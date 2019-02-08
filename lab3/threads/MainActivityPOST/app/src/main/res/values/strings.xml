@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MainActivityPOST</string>
+    <string name="do_something"> Do Something</string>
+    <string name ="patience">Some important data is being collected now.     Patience please...</string>>
+</resources>
