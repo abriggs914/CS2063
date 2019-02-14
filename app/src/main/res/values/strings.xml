@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <string name="action_settings">Settings</string>
-    <string name="buttonright">Right</string>
-    <string name="buttonleft">Left</string>
-    <string name="big_number_game">Please select the bigger of the two values.</string>
-    <string name="points_start">Points: 0</string>
-</resources>
