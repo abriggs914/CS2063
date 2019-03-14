@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lab11</string>
+    <string name="contacts_information">contacts-information</string>
+    <string name="textview">textview</string>
+</resources>
