@@ -22,13 +22,12 @@ public class activity_main extends AppCompatActivity {
         @Override
         //When Event is published, onReceive method is called
         public void onReceive(Context c, Intent i) {
-            int level = i.getIntExtra("level", 100);  //Get Battery %
+            int level = i.getIntExtra("level", 0);  //Get Battery %
             //Find the progressbar creating in main.xml
             ProgressBar pb = (ProgressBar) findViewById(R.id.progressbar);
             //Set progress level with battery % value
             pb.setProgress(level);
             TextView tv = (TextView) findViewById(R.id.textfield1);
-            level = 100;
             tv.setText("Battery Level: "+ Integer.toString(level) + "%"); //Set TextView with text
         }
     };

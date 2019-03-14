@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">lab10</string>
+    <string name="textView">TextView</string>
+</resources>
